@@ -3,7 +3,13 @@ $navbar-default-bg: red;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-
+#titleheader {
+  text-indent: 3em;
+  font-size: 1.7em;
+  color: grey;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 
 #logo {
   
