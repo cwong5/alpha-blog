@@ -13,7 +13,7 @@ gem 'puma', '~> 3.11'
 gem 'bootstrap-sass', '~> 3.3.7'
 gem 'jquery-rails'
 gem 'sass-rails', '~> 5.0'
-
+gem 'bcrypt', '~> 3.1.7'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
