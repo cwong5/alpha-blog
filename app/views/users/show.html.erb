@@ -1,0 +1,13 @@
+<h2 id="titleheader"> Welcome <%= @user.username %></h2> 
+<div class="row">
+  
+  <div class="well-md-2 col-md-offset-2">
+    <%= gravatar_for @user %>
+   
+  </div>
+</div>
+
+<h4 align="center">
+  <%= @user.username %>'s articles
+</h4>
+<%= render 'articles/article', obj: @user.articles %>
