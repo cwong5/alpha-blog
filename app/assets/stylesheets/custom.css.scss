@@ -4,6 +4,8 @@ $navbar-default-bg: red;
 @import "bootstrap";
 
 
+
+
 #titleheader {
   
   
@@ -66,6 +68,8 @@ $navbar-default-bg: red;
   
 }
 
+
+
 .artricle-meta-details {
   
   border-top: 1px dotted grey;
@@ -107,6 +111,11 @@ $navbar-default-bg: red;
   
 }
 
+.listing {
+  list-style: none;
+  padding-left: 0;
+  
+}
 
 
 footer {
