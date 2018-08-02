@@ -22,7 +22,7 @@ class CategoriesController < ApplicationController
       
        flash[:success] = "Category Created"
       redirect_to categories_path
-      s
+    
     else 
       
       render 'new'
