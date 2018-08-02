@@ -1,5 +1,7 @@
 class CategoriesController < ApplicationController
   
+  before_action :require_admin, except: [:index, :show]
+  
   
   def index
     
@@ -40,8 +42,17 @@ class CategoriesController < ApplicationController
 
       
     end
+  
+  def require_admin
     
+    if !logged_in? || (logged_in? and !current_user.admin?)
+        flash[:danger] = "Admin Only"
+      redirect_to categories_path
     
+      
+    end
+    
+  end
     
     
 end
