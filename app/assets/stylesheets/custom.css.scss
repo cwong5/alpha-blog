@@ -6,6 +6,7 @@ $navbar-default-bg: red;
 
 
 
+
 #titleheader {
   
   
@@ -116,6 +117,25 @@ $navbar-default-bg: red;
   padding-left: 0;
   
 }
+
+
+.badge {
+  
+  background-color: pink;
+  text-transform: normal;
+  letter-spacing: -1px;
+  font-weight: light;
+  
+}
+
+
+.input_checkbox input{
+  
+  width: auto !important;
+  
+}
+
+
 
 
 footer {
